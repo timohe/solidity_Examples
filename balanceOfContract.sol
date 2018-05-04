@@ -8,6 +8,6 @@ contract Payout
         bal = address(this).balance;
     }
     function payout() public {
-        msg.sender.transfer(2);
+        msg.sender.transfer(2 ether);
     }
 }
